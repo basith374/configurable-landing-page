@@ -1,0 +1,19 @@
+@import '../../mixin';
+  
+
+.Image_Fx_1 {
+    @extend box;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    .ifx1_container{
+        @extend box;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        transition: 1s;
+        img {
+            max-height: 100%;
+        }
+    }
+}
