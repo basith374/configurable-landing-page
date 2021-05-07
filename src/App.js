@@ -3,6 +3,7 @@ import './App.css';
 import TemplateRenderer from './templateRenderer/templateRenderer';
 // import demoTemplate from './template/default_template/demo';
 import sachinTemplate from './template/sachin/sachin';
+import anuTemplate from './template/anu';
 
 const afterEverythingLoads =()=> {
   let hoverElms = document.querySelectorAll('[hover-style]')

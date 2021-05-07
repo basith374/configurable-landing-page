@@ -1,4 +1,4 @@
-box, .Header_Type_1 {
+box, .Header_Type_1, .Header_Type_1 .ht1_button {
   position: relative;
   box-sizing: border-box;
   z-index: 1; }
@@ -8,4 +8,16 @@ box, .Header_Type_1 {
   height: 100%;
   align-items: center;
   justify-content: flex-end;
-  padding-right: 50px; }
+  padding-right: 80px;
+  padding-top: 80px; }
+  .Header_Type_1 .ht1_button {
+    padding: 0 30px;
+    font-family: proreg;
+    font-size: 19px;
+    height: 46px;
+    line-height: 46px;
+    font-weight: 700;
+    cursor: pointer; }
+  .Header_Type_1 .ht1_button.-d {
+    border: 2px solid #eee;
+    border-radius: 20px; }

@@ -23,7 +23,7 @@ export default class Landing_Type_2 extends Component {
         return (
             <div className='Landing_Type_2' style={this.getStyles(config)}>
                 <div className='lt2_header'>
-                    <Header_Type_1 config={config}/>
+                    <Header_Type_1 config={config.headerConfig}/>
                 </div>
                 <div className='lt2_content'>
                     <div className='lt2_left'>
