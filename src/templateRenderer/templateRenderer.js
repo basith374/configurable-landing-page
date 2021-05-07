@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import './templateRenderer.css';
+import './templateRenderer.scss';
 
 import Background_Default from '../components/background_default/background_default';
 import Landing_Type_1 from '../components/landing_type_1/landing_type_1';
 import Landing_Type_2 from '../components/landing_type_2/landing_type_2';
 import Gallery_Type_1 from '../components/gallery_type_1/gallery_type_1';
+import WhatIKnow from '../components/what_i_know';
 
 export default class TemplateRenderer extends Component {
 
@@ -12,7 +13,8 @@ export default class TemplateRenderer extends Component {
         background_default: Background_Default,
         landing_type_1: Landing_Type_1,
         landing_type_2: Landing_Type_2,
-        gallery_type_1: Gallery_Type_1
+        gallery_type_1: Gallery_Type_1,
+        what_i_know: WhatIKnow,
     }
 
     /**

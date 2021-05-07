@@ -1,0 +1,35 @@
+@font-face {
+    font-family: BenchNine;
+    src: url(../../fonts/BenchNine-Regular.otf);
+}
+.knowContainer {
+    margin-bottom: 16em;
+}
+.knowTitle {
+    width: 1000px;
+    margin: 0 auto;
+    font-family: BenchNine;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.iconGrid {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.iconGrid-i {
+    width: 125px;
+    text-align: center;
+    // border: 1px solid #222;
+    margin: 0 0 40px;
+}
+.iconGrid-i svg {
+    width: 50px;
+    margin-bottom: 10px;
+    filter: grayscale(1);
+    transition: 200ms filter;
+}
+.iconGrid-i:hover svg {
+    filter: none;
+}

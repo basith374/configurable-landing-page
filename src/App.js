@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import './App.css';
 import TemplateRenderer from './templateRenderer/templateRenderer';
-// import demoTemplate from './template/default_template/demo';
+import demoTemplate from './template/default_template/demo';
+import roshan from './template/roshan';
 import sachinTemplate from './template/sachin/sachin';
 
 const afterEverythingLoads =()=> {
@@ -28,7 +29,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <TemplateRenderer template={sachinTemplate}/>
+        <TemplateRenderer template={roshan} />
       </div>
     );
   }

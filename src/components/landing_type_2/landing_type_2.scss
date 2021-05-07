@@ -1,6 +1,3 @@
-@import '../../mixin';
-
-
 @font-face {
     font-family: proreg;
     src: url(../../fonts/proxima_ssv/ProximaNovaRegular.otf);
@@ -26,18 +23,15 @@
 }
 
 .Landing_Type_2 {
-    @extend box;
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 100vh;
     overflow: hidden;
     .lt2_header {
-        @extend box;
         height: 100px;
     }
     .lt2_content {
-        @extend box;
         display: flex;
         flex-direction: row;
         width: 100%;
@@ -45,41 +39,34 @@
         overflow: hidden;
     }
     .lt2_left{
-        @extend box;
         display: flex;
         flex: 5;
         flex-direction: column;
         padding-left: 150px;
         justify-content: center;
         .lt2l_title_1{
-            @extend box;
             font-size: 68px;
             font-family: Offside;
             line-height: 100%;
         }
         .lt2l_title_2{
-            @extend box;
             font-size: 74px;
             font-family: pdsm;
             line-height: 110%;
         }
         .lt2l_title_3{
-            @extend box;
             font-size: 36px;
             font-family: proreg;
             line-height: 160%;
         }
         .lt2l_desc{
-            @extend box;
             font-size: 20px;
             font-family: proreg;
             padding-right: 50px;
         }
         .lt2l_button{
-            @extend box;
             margin-top: 30px;
             .lt2l_button_inner {
-                @extend box;
                 float: left;
                 font-size: 19px;
                 font-family: probold;
@@ -92,19 +79,16 @@
         }
     }
     .lt2_right{
-        @extend box;
         display: flex;
         flex: 7;
         flex-direction: column;
         .lt2r_img {
-            @extend box;
             display: flex;
             flex: 1;
             align-items: flex-end;
             padding-left: 100px;
         }
         .lt2r_bg {
-            @extend box;
             position: absolute;
             right: -10%;
             bottom: -10%;

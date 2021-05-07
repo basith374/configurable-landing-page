@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './image_fx_1.css';
+import './image_fx_1.scss';
 
 let winH = window.innerHeight;
 let winW = window.innerWidth;

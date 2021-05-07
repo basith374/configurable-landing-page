@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Image_Fx_2 from '../image_fx_2/image_fx_2';
-import './landing_type_1.css';
+import './landing_type_1.scss';
 
 export default class Landing_Type_1 extends Component {
 

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './background_default.css';
+import './background_default.scss';
 
 export default class Background_Default extends Component {
 

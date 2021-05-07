@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header_Type_1 from '../header_type_1/header_type_1';
-import './landing_type_2.css';
+import './landing_type_2.scss';
 
 export default class Landing_Type_2 extends Component {
 

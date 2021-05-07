@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './gallery_type_1.css';
+import './gallery_type_1.scss';
 
 export default class Gallery_Type_1 extends Component {
 
