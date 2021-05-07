@@ -7,6 +7,7 @@ import Landing_Type_2 from '../components/landing_type_2/landing_type_2';
 import Gallery_Type_1 from '../components/gallery_type_1/gallery_type_1';
 import WhatIKnow from '../components/what_i_know';
 import BlogSection from '../components/blog_section';
+import AboutMe from '../components/about_me';
 
 export default class TemplateRenderer extends Component {
     componentFactory = {
@@ -16,6 +17,7 @@ export default class TemplateRenderer extends Component {
         gallery_type_1: Gallery_Type_1,
         what_i_know: WhatIKnow,
         blog_section: BlogSection,
+        about_me: AboutMe,
     }
 
     /**
