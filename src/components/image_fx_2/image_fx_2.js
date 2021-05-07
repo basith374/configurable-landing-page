@@ -49,7 +49,7 @@ export default class Image_Fx_2 extends Component {
 
             this.imgRefArray.forEach((ref, index)=> {
                 if(ref.current) {
-                    let ratio = index / (this.imgRefArray.length - 1)
+                    let ratio = (index + 1 ) / this.imgRefArray.length
                     let x = this.transformX * ratio;
                     let y = this.transformY * ratio;
                     ref.current.style.transform = `translate(${x}px,${y}px)`; 

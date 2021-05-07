@@ -3,6 +3,7 @@ import './templateRenderer.css';
 
 import Background_Default from '../components/background_default/background_default';
 import Landing_Type_1 from '../components/landing_type_1/landing_type_1';
+import Landing_Type_2 from '../components/landing_type_2/landing_type_2';
 import Gallery_Type_1 from '../components/gallery_type_1/gallery_type_1';
 
 export default class TemplateRenderer extends Component {
@@ -10,6 +11,7 @@ export default class TemplateRenderer extends Component {
     componentFactory = {
         background_default: Background_Default,
         landing_type_1: Landing_Type_1,
+        landing_type_2: Landing_Type_2,
         gallery_type_1: Gallery_Type_1
     }
 

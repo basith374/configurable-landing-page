@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import './App.css';
 import TemplateRenderer from './templateRenderer/templateRenderer';
-import demoTemplate from './template/default_template/demo';
+// import demoTemplate from './template/default_template/demo';
+import sachinTemplate from './template/sachin/sachin';
 
 const afterEverythingLoads =()=> {
   let hoverElms = document.querySelectorAll('[hover-style]')
@@ -27,7 +28,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <TemplateRenderer template={demoTemplate}/>
+        <TemplateRenderer template={sachinTemplate}/>
       </div>
     );
   }
