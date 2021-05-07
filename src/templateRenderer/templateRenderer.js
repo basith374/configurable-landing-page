@@ -6,15 +6,16 @@ import Landing_Type_1 from '../components/landing_type_1/landing_type_1';
 import Landing_Type_2 from '../components/landing_type_2/landing_type_2';
 import Gallery_Type_1 from '../components/gallery_type_1/gallery_type_1';
 import WhatIKnow from '../components/what_i_know';
+import BlogSection from '../components/blog_section';
 
 export default class TemplateRenderer extends Component {
-
     componentFactory = {
         background_default: Background_Default,
         landing_type_1: Landing_Type_1,
         landing_type_2: Landing_Type_2,
         gallery_type_1: Gallery_Type_1,
         what_i_know: WhatIKnow,
+        blog_section: BlogSection,
     }
 
     /**

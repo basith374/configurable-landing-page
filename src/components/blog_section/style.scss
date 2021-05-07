@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap');
+
+.BlogSection {
+    font-family: Raleway;
+    margin-bottom: 10em;
+    position: relative;
+}
+.BlogsHead {
+    width: 1200px;
+    margin: 0 auto;
+    color: #222;
+}
+.BlogsHead h1 {
+    font-size: 40px;
+    margin: 0 0 40px;
+}
+.BlogsHeadDrop {
+    position: absolute;
+    z-index: -1;
+    font-size: 400px;
+    color: #eee;
+    top: -200px;
+    left: -70px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.BlogsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1230px;
+    margin: 0 auto;
+}
+.BlogItem {
+    width: 370px;
+    background: #1B212D;
+    margin: 0 15px 30px;
+}
+.BlogImage {
+    height: 200px;
+}
+.BlogImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.BlogInfo {
+    color: #fff;
+    padding: 25px;
+}
+.BlogText {
+    margin-bottom: 40px;
+}
+.BlogTextTitle {
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+.BlogTextExtra {
+    color: #aaa;
+}
+.BlogFoot {
+    display: flex;
+}
+.BlogFoot > div:first-child {
+    flex: 1;
+}
+.BlogFoot > div:last-child {
+    font-weight: 800;
+}

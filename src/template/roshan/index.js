@@ -67,7 +67,32 @@ export default {
                 'laravel',
                 'socketio',
                 'threejs',
-            ]
-        }
+            ],
+        },
+        {
+            component: 'blog_section',
+            items: [
+                {
+                    image: 'https://miro.medium.com/max/1000/1*Q-qfKnYns8HnFK14iobkWw.jpeg',
+                    title: 'Parallax Background',
+                    content: 'This tutorial shows you how to add interactive parallax backgrounds to your website. You can move your mouse around and see the layers move around like below. You can move your mouse around and see the layers move around like below.',
+                },
+                {
+                    image: 'https://miro.medium.com/max/1000/1*Q-qfKnYns8HnFK14iobkWw.jpeg',
+                    title: 'Parallax Background',
+                    content: 'This tutorial shows you how to add interactive parallax backgrounds to your website. You can move your mouse around and see the layers move around like below. You can move your mouse around and see the layers move around like below.',
+                },
+                {
+                    image: 'https://miro.medium.com/max/1000/1*Q-qfKnYns8HnFK14iobkWw.jpeg',
+                    title: 'Parallax Background',
+                    content: 'This tutorial shows you how to add interactive parallax backgrounds to your website. You can move your mouse around and see the layers move around like below. You can move your mouse around and see the layers move around like below.',
+                },
+                {
+                    image: 'https://miro.medium.com/max/1000/1*Q-qfKnYns8HnFK14iobkWw.jpeg',
+                    title: 'Parallax Background',
+                    content: 'This tutorial shows you how to add interactive parallax backgrounds to your website. You can move your mouse around and see the layers move around like below. You can move your mouse around and see the layers move around like below.',
+                },
+            ],
+        },
     ]
 }
