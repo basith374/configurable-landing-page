@@ -8,6 +8,8 @@ import Gallery_Type_1 from '../components/gallery_type_1/gallery_type_1';
 import WhatIKnow from '../components/what_i_know';
 import BlogSection from '../components/blog_section';
 import AboutMe from '../components/about_me';
+import Footer_Type_1 from '../components/footer_type_1/footer_type_1';
+import AboutMe_Type_1 from '../components/aboutme_type_1/aboutme_type_1';
 
 export default class TemplateRenderer extends Component {
     componentFactory = {
@@ -18,6 +20,8 @@ export default class TemplateRenderer extends Component {
         what_i_know: WhatIKnow,
         blog_section: BlogSection,
         about_me: AboutMe,
+        footer_type_1: Footer_Type_1,
+        aboutme_type_1: AboutMe_Type_1,
     }
 
     /**

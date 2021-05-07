@@ -13,7 +13,8 @@ export default class Header_Type_1 extends Component {
     getButtons = buttons => {
         return buttons.map((button, index) => {
             return (
-                <div className='ht1_button' key={index}>
+                <div className={'ht1_button' + (button.downloadButton ? ' -d' : '')} key={index} 
+                    style={{ color: this.props.config.color, borderColor: this.props.config.color }}>
                     {button.name}
                 </div>
             )
